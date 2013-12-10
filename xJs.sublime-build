@@ -1,0 +1,12 @@
+{
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.js",
+	"cmd": ["node", "$file", "$file_base_name"],
+
+    "variants": [
+        { 
+          "cmd": ["js2coffee", "-i2", "$file"],
+          "name": "Compile"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.coffee",
+	"cmd": ["coffee", "$file", "$file_base_name"],
+
+    "variants": [
+        { 
+          "cmd": ["coffee", "-bp", "$file"],
+          "name": "Compile"
+        }
+    ]
+}

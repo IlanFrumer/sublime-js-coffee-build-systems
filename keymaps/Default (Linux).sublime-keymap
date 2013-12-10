@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Compile"} }
+]
