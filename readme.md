@@ -7,4 +7,4 @@
 
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 - [node.js](http://nodejs.org/download/)
-- npm install -g coffee-script js2coffee
+- `npm install -g coffee-script js2coffee`
