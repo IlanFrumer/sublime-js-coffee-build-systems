@@ -8,5 +8,8 @@
           "cmd": ["coffee", "-bp", "$file"],
           "name": "Compile"
         }
-    ]
+    ],
+    "windows" : {
+    	"shell": true
+    }
 }
