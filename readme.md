@@ -12,5 +12,5 @@
 
 ## Warning
 
-Notice that it just running scripts through the command line so avoid infintine loops or kill them manually(`pkill -f node`)
+Notice that it just running scripts via the command line so avoid running scripts with infinite loops or kill them manually(`pkill -f node`) if you already did !
 ![infinite loop](http://i.imgur.com/SVQC5hS.png)
