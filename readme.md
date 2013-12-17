@@ -8,3 +8,9 @@
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 - [node.js](http://nodejs.org/download/)
 - `npm install -g coffee-script js2coffee`
+
+
+## Warning
+
+Notice that it just running scripts through the command line so avoid infintine loops or kill them manually(`pkill -f node`)
+![infinite loop](http://i.imgur.com/SVQC5hS.png)
