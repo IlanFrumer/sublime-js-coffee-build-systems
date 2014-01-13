@@ -11,9 +11,11 @@
 ### Dependencies
 
 - [node.js](http://nodejs.org/download/)
-- [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 - `npm install -g coffee-script js2coffee jade`
 - `npm install -g coffee-script html2jade` - __(Windows not supported)__
+- [sublime-jade](https://sublime.wbond.net/packages/Jade)
+- [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
+
 
 ## Warning!
 
