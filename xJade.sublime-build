@@ -2,6 +2,9 @@
     "selector": "source.jade",
     "cmd": ["node","-e","var fs=require('fs'),jade=require('jade'),file=process.argv.pop();fs.readFile(file,'utf8',function(err,str){if(err)console.log(err);else console.log(jade.compile(str,{pretty:true})()+'\\n')})","$file"],
     "windows" : {
-            "shell": true
+    	"env": {
+    		"NODE_PATH" : "%APPDATA%/npm/node_modules"
+    	},
+        "shell": true
     }
 }

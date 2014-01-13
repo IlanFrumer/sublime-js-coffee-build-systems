@@ -13,10 +13,7 @@
 - [node.js](http://nodejs.org/download/)
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 - `npm install -g coffee-script js2coffee jade`
-- `npm install -g coffee-script html2jade` - __doesn't support windows!__
-
- sudo npm install -g jade
- sudo npm install -g html2jade
+- `npm install -g coffee-script html2jade` - __(Windows not supported)__
 
 ## Warning!
 
