@@ -1,7 +1,6 @@
 {
-    "working_dir": "${project_path:${folder}}",
     "selector": "source.js",
-	"cmd": ["node", "$file", "$file_base_name"],
+	"cmd": ["node", "$file"],
 
     "variants": [
         { 
