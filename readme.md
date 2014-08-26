@@ -1,23 +1,34 @@
 ### [Javascript & Coffeescript build systems](https://sublime.wbond.net/packages/JavaScript%20%26%20Coffeescript%20Build%20Systems) (plugin for sublime text)
 
-#### javascript / coffescript syntax
-- **ctrl+b**: run any code of _javascript_ or _coffeescript_
-- **ctrl+shift+b**: prints compiled code ( **js** to **coffee** _or_ **coffee** to **js** )
+#### javascript
 
-#### html / jade syntax
+- **ctrl+b**: execute code.
+- **ctrl+shift+b**: compile & output (js2coffee).
+- **ctrl+shift+h**: execute code in ec6(Harmony) mode.
 
-- **ctrl+b**: prints compiled code (**html** to **jade** _or_ **jade** to **html**)
+#### coffeescript
+- **ctrl+b**: execute code.
+- **ctrl+shift+b**: compile & output (coffee).
+
+#### html
+- **ctrl+b**: compile & output (html2jade).
+
+#### jade
+- **ctrl+b**: compile & output (jade).
 
 ### Dependencies
 
 - [node.js](http://nodejs.org/download/)
-- `npm install -g coffee-script js2coffee jade`
-- `npm install -g coffee-script html2jade` - __(Windows not supported)__
+- `npm install -g coffee-script js2coffee`
+- `npm install -g jade html2jade`
 - [sublime-jade](https://sublime.wbond.net/packages/Jade)
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 
+## Update npm gloabl packages
+
+- `sudo npm update -g`
 
 ## Warning!
 
-Notice, this plugin runs (js/coffee) scripts via the command line but is not responsable to close them. Avoid running scripts with infinite loops (like server connections) or kill them manually(`pkill -f node`).
+Notice, this plugin runs (js/coffee) scripts via the command line but it is not responsable for terminating them. Avoid running scripts with infinite loops (like server connections) or kill them manually(`pkill -f node`).
 ![infinite loop](http://i.imgur.com/SVQC5hS.png)

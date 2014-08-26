@@ -2,7 +2,9 @@
     "selector": "text.html",
     "cmd": ["node","-e","var fs=require('fs'),html2jade=require('html2jade'),file=process.argv.pop();fs.readFile(file,'utf8',function(err,str){if(err)console.log(err);else html2jade.convertHtml(str,{},function(err,jade){console.log(err||jade)})})","$file"],
     "windows" : {
-		"cmd": ["echo","html2jade - Windows is currently not supported because html2jade uses jsdom which in turn depends on native code module Contextify"],
+      "env": {
+        "NODE_PATH" : "%APPDATA%/npm/node_modules"
+      },
         "shell": true
-    }    
+    }
 }
