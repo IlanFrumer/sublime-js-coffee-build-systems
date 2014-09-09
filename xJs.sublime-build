@@ -6,7 +6,7 @@
     "name": "Compile"
   },{
     "name": "Harmony",
-    "cmd": ["node", "--harmony", "--use-strict" ,"$file"],
+    "cmd": ["node", "--harmony", "--use-strict" ,"$file"]
   }],
   "windows" : {
     "shell": true
