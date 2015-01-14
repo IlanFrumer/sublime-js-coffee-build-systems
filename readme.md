@@ -17,7 +17,8 @@
 - **ctrl+b**: compile & output (jade).
 
 #### typescript
-- **ctrl+b**: compile & output (jade).
+- **ctrl+b**: compile & execute code (typescript).
+- **ctrl+shift+b**: compile (typescript).
 
 ### Dependencies
 
