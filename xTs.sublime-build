@@ -1,0 +1,9 @@
+{
+  "selector": "source.ts",
+  "cmd": ["tsc $file --module commonjs && node $file_base_name.js"],
+  "shell": true,
+  "variants": [{
+    "cmd": ["tsc $file --module commonjs"],
+    "name": "Compile"
+  }]
+}

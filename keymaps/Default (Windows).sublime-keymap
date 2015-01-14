@@ -1,4 +1,5 @@
 [
+  { "keys": ["ctrl+b"], "command": "build" },
 	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Compile"} },
   { "keys": ["ctrl+shift+h"], "command": "build", "args": {"variant": "Harmony"} }
 ]

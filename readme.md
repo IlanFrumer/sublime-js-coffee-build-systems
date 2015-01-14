@@ -16,11 +16,15 @@
 #### jade
 - **ctrl+b**: compile & output (jade).
 
+#### typescript
+- **ctrl+b**: compile & output (jade).
+
 ### Dependencies
 
 - [node.js](http://nodejs.org/download/)
 - `npm install -g coffee-script js2coffee`
 - `npm install -g jade html2jade`
+- `npm install -g typescript`
 - [sublime-jade](https://sublime.wbond.net/packages/Jade)
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 
