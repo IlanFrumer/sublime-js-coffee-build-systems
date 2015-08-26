@@ -1,0 +1,11 @@
+{
+  "selector": "source.js",
+  "cmd": ["babel-node", "$file"],
+  "variants": [{
+    "cmd": ["babel", "$file"],
+    "name": "Compile"
+  }],
+  "windows" : {
+    "shell": true
+  }
+}

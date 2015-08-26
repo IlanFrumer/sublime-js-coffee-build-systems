@@ -6,6 +6,11 @@
 - **ctrl+shift+b**: compile & output (js2coffee).
 - **ctrl+shift+h**: execute code in ec6(Harmony) mode.
 
+#### javascript(babel)
+
+- **ctrl+b**: execute code.
+- **ctrl+shift+b**: compile & output (babel).
+
 #### coffeescript
 - **ctrl+b**: execute code.
 - **ctrl+shift+b**: compile & output (coffee).
@@ -26,6 +31,7 @@
 - `npm install -g coffee-script js2coffee`
 - `npm install -g jade html2jade`
 - `npm install -g typescript`
+- `npm install -g babel`
 - [sublime-jade](https://sublime.wbond.net/packages/Jade)
 - [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript)
 
